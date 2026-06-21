@@ -1,6 +1,4 @@
-// =====================
-// DOM Elements
-// =====================
+// DOM elements
 
 const noteInput =
 document.getElementById("noteInput");
@@ -12,9 +10,9 @@ const notesContainer =
 document.getElementById("notesContainer");
 
 
-// =====================
+
 // State
-// =====================
+
 
 let notes =
 JSON.parse(localStorage.getItem("notes"))
