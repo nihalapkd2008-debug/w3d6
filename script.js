@@ -19,9 +19,9 @@ JSON.parse(localStorage.getItem("notes"))
 || [];
 
 
-// =====================
+
 // Save Notes
-// =====================
+
 
 function saveNotes(){
 
